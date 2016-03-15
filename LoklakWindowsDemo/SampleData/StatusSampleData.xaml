@@ -1,0 +1,41 @@
+﻿<LoklakWindowsDemo:Status xmlns:LoklakWindowsDemo="using:LoklakWindowsDemo" xmlns:System="using:System" audio_count="77" classifier_language="Vestibulum morbi faucibus nulla" classifier_emotion="Mus egestas proin" canonical_id="Aliquet vestibulum phasellus curae" classifier_language_probability="432.99" classifier_emotion_probability="231.17" created_at="Mauris quisque cras class praesent" favourites_count="39" hashtags_count="97" hosts_count="90" id_str="Duis parturient aliquam" images_count="13" location_source="Dapibus eget facilisis leo" link="Vivamus est" links_count="99" location_radius="91" mentions_count="60" place_country="Commodo vestibulum lorem conubia" place_name="Convallis vestibulum facilisi dignissim" parent="Nunc dictumst eleifend donec amet" place_context="Hac fusce elementum" place_id="Adipiscing parturient" provider_type="Ante arcu etiam" place_country_code="Diam cubilia" retweet_count="88" source_type="Blandit consequat" screen_name="Vestibulum aliquam curabitur integer nam" text="Aenean maecenas adipiscing sed" timestamp="Dis accumsan bibendum nullam" videos_count="36" without_l_len="69" without_lu_len="19" without_luh_len="61">
+	<LoklakWindowsDemo:Status.location_mark>
+		<System:Double>281.47</System:Double>
+		<System:Double>949.74</System:Double>
+		<System:Double>612.16</System:Double>
+		<System:Double>604.93</System:Double>
+		<System:Double>940.71</System:Double>
+		<System:Double>776.19</System:Double>
+		<System:Double>375.63</System:Double>
+		<System:Double>221.21</System:Double>
+		<System:Double>695.65</System:Double>
+		<System:Double>692.17</System:Double>
+	</LoklakWindowsDemo:Status.location_mark>
+	<LoklakWindowsDemo:Status.location_point>
+		<System:Double>643.61</System:Double>
+		<System:Double>307.8</System:Double>
+		<System:Double>386.68</System:Double>
+		<System:Double>674.14</System:Double>
+		<System:Double>173.1</System:Double>
+		<System:Double>675.6</System:Double>
+		<System:Double>760.79</System:Double>
+		<System:Double>509.79</System:Double>
+		<System:Double>613.45</System:Double>
+		<System:Double>183.11</System:Double>
+	</LoklakWindowsDemo:Status.location_point>
+	<LoklakWindowsDemo:Status.place_country_center>
+		<System:Double>969.65</System:Double>
+		<System:Double>550.12</System:Double>
+		<System:Double>851.16</System:Double>
+		<System:Double>641.6</System:Double>
+		<System:Double>194.55</System:Double>
+		<System:Double>457.76</System:Double>
+		<System:Double>722.7</System:Double>
+		<System:Double>997.98</System:Double>
+		<System:Double>154.18</System:Double>
+		<System:Double>498.24</System:Double>
+	</LoklakWindowsDemo:Status.place_country_center>
+	<LoklakWindowsDemo:Status.user>
+        <LoklakWindowsDemo:User appearance_latest="Elit ipsum fringilla per" appearance_first="Vestibulum feugiat felis non" name="Adipiscing augue" profile_image_url_https="https://pbs.twimg.com/profile_images/702360019082354688/GAGmjug__bigger.jpg" screen_name="Aptent nec auctor habitant" user_id="Euismod congue"/>
+	</LoklakWindowsDemo:Status.user>
+</LoklakWindowsDemo:Status>

@@ -1,0 +1,44 @@
+﻿<Page
+    x:Class="LoklakWindowsDemo.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LoklakWindowsDemo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Resources>
+        <local:TimeConverter x:Key="TimeConverter"/>
+        <local:attherate x:Key="attherate"/>
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Loaded="Grid_Loaded" >
+        <TextBlock Text="#FOSSASIA" FontFamily="Segoe UI Black" FontWeight="Bold" FontSize="48" HorizontalAlignment="Center" Margin="0,24,0,0"/>
+        <StackPanel x:Name="stp" HorizontalAlignment="Center" VerticalAlignment="Center" d:DataContext="{d:DesignData /SampleData/StatusSampleData.xaml}" Margin="24,0" Background="#FFF0F0F0" Padding="12" BorderBrush="Gainsboro" BorderThickness="0,0,0,6" CornerRadius="5">
+            <StackPanel.Transitions>
+                <TransitionCollection>
+                    <EdgeUIThemeTransition Edge="Top"/>
+                    <AddDeleteThemeTransition/>
+                    <ReorderThemeTransition/>
+                    <ContentThemeTransition/>
+                </TransitionCollection>
+            </StackPanel.Transitions>
+            <StackPanel.DataContext>
+                <local:Status/>
+            </StackPanel.DataContext>
+            <StackPanel Orientation="Horizontal">
+
+
+                <Image Source="{Binding user.profile_image_url_https}" Grid.Column="0" Height="100"/>
+                <StackPanel Margin="12,0,0,0">
+                    <TextBlock Text="{Binding screen_name, Converter={StaticResource attherate}}" FontSize="32" Grid.Column="1"/>
+                    <TextBlock Text="{Binding created_at, Converter={StaticResource TimeConverter}}" FontSize="28"></TextBlock>
+                </StackPanel>
+
+            </StackPanel>
+            <TextBlock Text="{Binding text}" TextWrapping="Wrap" FontSize="37.333"/>
+            <StackPanel Orientation="Horizontal">
+
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
