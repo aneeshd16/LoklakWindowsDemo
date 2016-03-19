@@ -28,7 +28,7 @@ namespace LoklakWindowsDemo
         {
             this.InitializeComponent();
         }
-        Loklak loklak = new Loklak("http://localhost:9000/api/");
+        Loklak loklak = new Loklak(/*"http://localhost:9000/api/"*/);
         int i = 0;
         private DispatcherTimer dispatcherTimer;
         private RootObject result;

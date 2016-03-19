@@ -30,12 +30,12 @@
 
                 <Image Source="{Binding user.profile_image_url_https}" Grid.Column="0" Height="100"/>
                 <StackPanel Margin="12,0,0,0">
-                    <TextBlock Text="{Binding screen_name, Converter={StaticResource attherate}}" FontSize="32" Grid.Column="1"/>
-                    <TextBlock Text="{Binding created_at, Converter={StaticResource TimeConverter}}" FontSize="28"></TextBlock>
+                    <TextBlock Text="{Binding screen_name, Converter={StaticResource attherate}}" FontSize="{ThemeResource TextStyleLargeFontSize}" Grid.Column="1"/>
+                    <TextBlock Text="{Binding created_at, Converter={StaticResource TimeConverter}}" FontSize="{ThemeResource TextStyleLargeFontSize}"></TextBlock>
                 </StackPanel>
 
             </StackPanel>
-            <TextBlock Text="{Binding text}" TextWrapping="Wrap" FontSize="37.333"/>
+            <TextBlock Text="{Binding text}" TextWrapping="Wrap" FontSize="{ThemeResource TextStyleExtraLargeFontSize}"/>
             <StackPanel Orientation="Horizontal">
 
             </StackPanel>
